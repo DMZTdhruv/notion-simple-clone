@@ -9,8 +9,8 @@
 
 body{
     font-family: monospace;
-    background-color: rgb(8, 8, 8);
-    color: white;
+    background-color: rgb(236, 236, 236);
+    color: rgb(43, 43, 43);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,9 @@ body{
     gap: 20px;
 }
 
-
+a{
+    color: rgb(30, 30, 30);
+}
 
 h1::after{
     content: attr(data-placeholder);
