@@ -1,0 +1,31 @@
+*{
+    border: none;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: monospace;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+h1::after{
+    content: attr(data-placeholder);
+    opacity: 30%;
+}
+h1:focus {
+    outline: none;
+}
